@@ -28,8 +28,8 @@ try {
     $mail->Port       = 587;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
     //Recipients
-    $mail->setFrom('info@delivapp.com.br', 'Info - Delivapp');
-    $mail->addAddress('info@delivapp.com.br', 'Delivapp');     // Add a recipient
+    $mail->setFrom('info@delivapp.com.br', 'Info - CP Calhas Oliveira');
+    $mail->addAddress('info@delivapp.com.br', 'CP Calhas Oliveira');     // Add a recipient
 
     // Content
     $mail->isHTML(true);                                  // Set email format to HTML
