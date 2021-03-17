@@ -11,6 +11,7 @@ require 'vendor/autoload.php';
 $name = $_POST['name'];
 $email = $_POST['email'];
 $subject = $_POST['subject'];
+$comment = $_POST['comment']
 
 // Instantiation and passing `true` enables exceptions
 $mail = new PHPMailer(true);
@@ -34,7 +35,7 @@ try {
     // Content
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = 'Solicitação de informação';
-    $mail->Body    = "Nome: $name <br> Empresa: $company <br> E-mail: $email";
+    $mail->Body    = "Nome: $name <br> E-mail: $email <br> Assunto: $subject <br> Mensagem: $comment ";
 
     $mail->send();
     echo 'Message has been sent';
