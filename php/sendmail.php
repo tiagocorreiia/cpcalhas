@@ -11,7 +11,7 @@ require 'vendor/autoload.php';
 $name = $_POST['name'];
 $email = $_POST['email'];
 $subject = $_POST['subject'];
-$comment = $_POST['comment']
+$comment = $_POST['comment'];
 
 // Instantiation and passing `true` enables exceptions
 $mail = new PHPMailer(true);
