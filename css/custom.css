@@ -35,3 +35,13 @@ a:hover {
 header nav.navbar .navbar-nav > li > a, nav.navbar.bootsnav ul.nav > li > a {
     color: #232323 !important;
 }
+
+.navbar-default.white-link .navbar-toggle .icon-bar{
+    background: #232323 !important;
+}
+
+@media(max-width: 992px) {
+    header nav.navbar .navbar-nav > li > a, nav.navbar.bootsnav ul.nav > li > a {
+        color: #FFF !important;
+    }
+}
