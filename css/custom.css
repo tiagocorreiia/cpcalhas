@@ -31,3 +31,7 @@ a:hover {
 .social-icon-style-8 a:hover {
     color: var(--primary-color);
 }
+
+header nav.navbar .navbar-nav > li > a, nav.navbar.bootsnav ul.nav > li > a {
+    color: #232323 !important;
+}
