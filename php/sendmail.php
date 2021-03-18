@@ -21,16 +21,16 @@ try {
     //$mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
     $mail->CharSet = 'UTF-8';
     $mail->isSMTP();                                            // Send using SMTP
-    $mail->Host       = 'smtp.umbler.com';                    // Set the SMTP server to send through
+    $mail->Host       = 'smtp.hotmail.com';                    // Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-    $mail->Username   = 'info@delivapp.com.br';                     // SMTP username
-    $mail->Password   = 'Fyb@071285b';                               // SMTP password
+    $mail->Username   = 'Cpcalhas@hotmail.com';                     // SMTP username
+    $mail->Password   = 'termosteel34638581';                               // SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
     $mail->Port       = 587;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
     //Recipients
-    $mail->setFrom('info@delivapp.com.br', 'Info - CP Calhas Oliveira');
-    $mail->addAddress('info@delivapp.com.br', 'CP Calhas Oliveira');     // Add a recipient
+    $mail->setFrom('Cpcalhas@hotmail.com', 'Info - CP Calhas Oliveira');
+    $mail->addAddress('Cpcalhas@hotmail.com', 'CP Calhas Oliveira');     // Add a recipient
 
     // Content
     $mail->isHTML(true);                                  // Set email format to HTML
